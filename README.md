@@ -38,4 +38,38 @@ y ajustar la línea `public class main` → `public class Main`.
 - Añadir pruebas unitarias para lógica de colisión y movimiento.
 - Implementar guardado/carga de partidas (serialización de objetos).
   git checkout -f main
+
+
+
+Promts uso de la IA
+
+  1 Genera los archivos Java para las siguientes clases,  teniendo en cuenta que es para un juego tipo pacman :
+Main
+MotorJuego
+EntidadVideojuego (abstracta)
+Jugador
+Enemigo
+GestorEntradas
+Cada archivo debe contener:
+nombre de la clase
+atributos declarados
+métodos declarados (solo firma)
+No generes código dentro de los métodos.  
+No implementes lógica.
+
+
+
+2 implementa los metodos dentro de la clase motorJuego
+
+3implementa en Enemigo los metodo. Haz que se recorran entidades, actualizen su estado y detecten colisiones.
+ 
+implementa los metodos de entidad videojuego teniendo en cuenta la estructura general del juego
+
+Implementa los metodos de gestor de entradas
+
+
+Genera los métodos del main
+
+Refactoriza el código de todas las clases
+
  
